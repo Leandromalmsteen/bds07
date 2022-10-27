@@ -1,27 +1,56 @@
 .main-nav {
-    padding-left: 10px;
-    min-height: 70px;
+  padding-left: 10px;
+  min-height: 70px;
 }
 
-.nav-logo-text, .nav-logo-text:hover {
-    color: #00285F;
+.nav-logo-text,
+.nav-logo-text:hover {
+  color: #00285f;
 }
 
 .main-menu {
-    display: flex;
-    font-size: 18px;
-    width: 170px;
-    justify-content: space-between;
+  display: flex;
+  font-size: 18px;
+  width: 170px;
+  justify-content: space-between;
 }
 
 .main-menu a {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .main-menu a:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .main-menu a.active {
-    font-weight: bold;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .main-menu {
+    width: 623px;
+    justify-content: flex-end;
+    padding: 0px;
+  }
+
+  .main-menu a {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-menu {
+    width: 840px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .nav-logo-text {
+    margin-left: 150px;
+  }
+  .main-menu {
+    width: 700px;
+    font-size: 20px;
+  }
 }

@@ -1,7 +1,7 @@
 import { ReactComponent as MainImage } from 'assets/images/car-header 1.svg';
 import Navbar from 'components/Navbar';
 import './styles.css';
-import ButtonIcon from '../../components/Navbar/ButtonIcon/index';
+import ButtonIcon from '../../components/ButtonIcon/index';
 
 const Home = () => {
   return (
@@ -11,11 +11,13 @@ const Home = () => {
         <div className="home-card">
           <div className="home-image-container">
             <MainImage />
-            <h2>O carro perfeito para você</h2>
-            <p>
-              Conheça nossos carros e dê mais um passo na realização do seu
-              sonho
-            </p>
+            <div className="home-image-container-textos">
+              <h2>O carro perfeito para você</h2>
+              <p>
+                Conheça nossos carros e dê mais um passo na realização do seu
+                sonho
+              </p>
+            </div>
           </div>
 
           <div className="home-content-container">

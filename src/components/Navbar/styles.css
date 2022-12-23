@@ -1,37 +1,47 @@
 .main-nav {
-  padding-left: 10px;
   min-height: 70px;
 }
 
 .nav-logo-text,
 .nav-logo-text:hover {
-  color: #00285f;
+  font-size: 24px;
+  color: #061c3b; 
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .main-menu {
+  width: 100%;
   display: flex;
   font-size: 18px;
-  width: 170px;
   justify-content: space-between;
 }
 
 .main-menu a {
+  color: #061c3b;
   font-weight: 400;
+  text-decoration: none;
 }
 
 .main-menu a:hover {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .main-menu a.active {
   font-weight: bold;
 }
 
+@media (min-width: 576px) {
+  .main-nav {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+}
+
 @media (min-width: 768px) {
   .main-menu {
-    width: 623px;
     justify-content: flex-end;
-    padding: 0px;
   }
 
   .main-menu a {
@@ -39,18 +49,23 @@
   }
 }
 
-@media (min-width: 992px) {
-  .main-menu {
-    width: 840px;
-  }
-}
-
 @media (min-width: 1280px) {
   .nav-logo-text {
-    margin-left: 150px;
+    justify-content: space-between;
+    margin-left: 140px;
   }
   .main-menu {
     width: 700px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .nav-logo-text {
+    justify-content: space-between;
+  }
+  .main-menu {
+    width: 1420px;
     font-size: 20px;
   }
 }

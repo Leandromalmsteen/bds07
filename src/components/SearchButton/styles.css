@@ -1,0 +1,40 @@
+.searchButton {
+    width: 77px; 
+    height: 40px;
+    background-color: #00285F;
+    border-radius: 0 10px 10px 0;
+    margin-left: 67px;  
+}
+
+.searchButton h6 {
+    width: 60px; 
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    align-items: center;
+    padding-top: 6px;
+    text-align: center;
+}
+
+@media(min-width: 576px) {
+    .searchButton {
+        width: 174px;
+        margin-left: 200px;
+    }
+
+    .searchButton h6 {
+        margin-left: 50px;
+    }
+}
+
+@media(min-width: 768px) {
+    .searchButton {
+        margin-left: 380px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .searchButton {
+        margin-left: 550px;
+    }
+}

@@ -1,5 +1,5 @@
 .car-card {
-  width: 300px;
+  width: 100%;
   height: 347px;
   margin-bottom: 30px;
   background-color: #EDEDED;
@@ -20,7 +20,7 @@
 .card-bottom-container {
   text-align: center;
   line-height: 16px;
-  width: 260px;
+  width: 100%;
 }
 
 .card-bottom-container h6 {
@@ -29,42 +29,29 @@
 }
 
 .card-bottom-container p {
-  width: 222px;
+  width: 100%;
   font-size: 12px;
   text-align: left;
   font-style: italic;
 }
 
 .btn-buy {
-    width: 257px;
+    width: 100%;
     margin-top: 10px;
   }
 
 @media (min-width: 576px) {
-  .car-card {
-    width: 258px;
-  }
-
-  .card-bottom-container {
-    width: 210px;
-  }
-
+  
   .card-bottom-container p {
     padding-right: 5px;
   }
 
-  .btn-buy {
-    width: 210px;
-  }
 }
 
 @media (min-width: 768px) {
-  .car-card {
-    width: 349px;
-  }
 
   .card-bottom-container {
-    width: 307px;
+    width: 100%;
     text-align: center;
     line-height: 16px;
   }
@@ -75,10 +62,7 @@
 }
 
 @media (min-width: 992px) {
-  .car-card {
-    width: 296px;
-  }
-
+ 
   .btn-buy {
     width: 257px;
   }
@@ -93,7 +77,6 @@
 
 @media (min-width: 1280px) {
   .car-card {
-    width: 306px;
     align-items: center;
     margin: 20px 40px;
     

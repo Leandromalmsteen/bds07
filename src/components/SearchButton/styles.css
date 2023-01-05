@@ -1,9 +1,8 @@
 .searchButton {
-    width: 77px; 
+    width: 40%; 
     height: 40px;
     background-color: #00285F;
-    border-radius: 0 10px 10px 0;
-    margin-left: 67px;  
+    border-radius: 0 10px 10px 0; 
 }
 
 .searchButton h6 {
